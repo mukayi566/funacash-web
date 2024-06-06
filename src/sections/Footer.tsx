@@ -1,4 +1,4 @@
-import KobodropLight from "../assets/logos/kobodrop_logo_bright.png";
+import FunacashLight from "../assets/logos/funacash-logo.png";
 import StoreLinks, { BtnTypes } from "../common/StoreLinks";
 import Twitter from "../assets/logos/icons8-twitterx.svg";
 import Facebook from "../assets/logos/icons8-facebook.svg";
@@ -11,9 +11,9 @@ function Footer() {
         <div className="flex flex-col justify-between gap-12 md:flex-row md:gap-0">
           <div>
             <img
-              className="mb-4 w-36"
-              src={KobodropLight}
-              alt="Light version of Kobodrop logo"
+              className="mb-2 flex items-center md:block cursor-pointer md:w-1/5 h-1/5 lg:w-1/5 w-20"
+              src={FunacashLight}
+              alt="Light version of funacash logo"
             />
             <p>Start spending the smart way</p>
           </div>

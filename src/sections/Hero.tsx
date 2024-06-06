@@ -1,5 +1,5 @@
 import StoreLinks, { BtnTypes } from "../common/StoreLinks";
-import Phone from "../assets/mockup.svg";
+import Phone from "../assets/mockup.png";
 import HeroImage from "../assets/hero.png";
 
 function Hero() {
